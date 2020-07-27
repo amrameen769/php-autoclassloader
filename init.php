@@ -1,8 +1,8 @@
 <?php
 // InitFile
 
-// Add Reusable Directory Autoloader
-// Class Autoloader will detect all the subdirectories and add the class files followed under "/lib" directory on your server root.
+// Add Reusable Directory Auto Loader
+// Class Auto Loader will detect all the subdirectories and add the class files followed under "/lib" directory on your server root.
 // PHP 7.2^ preferred method
 
 function requireClass($classFile, $className)
