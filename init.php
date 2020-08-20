@@ -7,7 +7,7 @@
 
 function requireClass($classFile, $className)
 {
-    if (!class_exists($className)) require_once $classFile;
+    if (!class_exists($className) && $className === basename($classFile, ".php")) require_once $classFile;
 }
 
 function retrieveDir($dirs, $currentPath, $className)
